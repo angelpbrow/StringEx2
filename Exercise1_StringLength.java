@@ -13,11 +13,11 @@ public class Exercise1_StringLength {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.print("Please enter your name: ");
+        System.out.print("Angelika Brown");
         String name = scanner.nextLine();
-        
         // TODO: Print the length of the name using the length() method
-        
+        System.out.println(name.length());
+
         scanner.close();
     }
 }
