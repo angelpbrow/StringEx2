@@ -15,10 +15,10 @@ public class Exercise2_StringConcatenation {
         
         System.out.print("First name goes here:");
         String lastName = scanner.nextLine();
-        System.out.print(firstName +" " + lastName);
+
         // TODO: Concatenate the first and last name with a space in between
         // using the + operator or concat() method
-
+        System.out.print(firstName +" " + lastName);
         scanner.close();
     }
 }

@@ -13,11 +13,12 @@ public class Exercise10_PalindromeChecker {
         
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
+
+        // TODO: Check if the string is a palindrome and print the result
+
         String reversed = new StringBuilder(input).reverse().toString();
         boolean isPalindrome = input.equalsIgnoreCase(reversed);
         System.out.println(isPalindrome);
-        // TODO: Check if the string is a palindrome and print the result
-
 
         scanner.close();
     }
