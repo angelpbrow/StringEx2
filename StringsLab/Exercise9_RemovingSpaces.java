@@ -12,7 +12,7 @@ public class Exercise9_RemovingSpaces {
         
         System.out.print("Enter a sentence: ");
         String sentence = scanner.nextLine();
-        
+
         // TODO: Remove all spaces from the sentence using replace() or replaceAll()
         System.out.println(sentence.replace(" ",""));
         scanner.close();
