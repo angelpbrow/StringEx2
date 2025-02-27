@@ -15,7 +15,8 @@ public class Exercise12_WordCounter {
         String sentence = scanner.nextLine();
         
         // TODO: Count and print the number of words in the sentence
-        
+        sentence.split(" ");
+        System.out.println(.length());
         scanner.close();
     }
 }
